@@ -1,4 +1,6 @@
+import { Footer } from "./footer";
 import { Hero } from "./hero";
+// import { SocialMedia } from "./socialmedia";
 //strona glowna
 export default function Home() {
   const projects = [
@@ -24,6 +26,7 @@ export default function Home() {
         ))}
       </div>
 
+      <Footer/>
     </main>
   );
 }
