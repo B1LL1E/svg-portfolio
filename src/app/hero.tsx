@@ -3,7 +3,7 @@ export function Hero(){
         <section className="w-full max-w-4xl mb-24 mt-12 text-center md:text-left">
         {/* Imię i Nazwisko / Rola */}
         <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tighter mb-6">
-          JAN KOWALSKI <span className="text-neutral-500">EDITOR</span>
+          <span className="text-red-500">SVG</span>VFX <span className="text-neutral-500">EDITOR</span>
         </h1>
         
         {/* Krótki opis / Bio */}
