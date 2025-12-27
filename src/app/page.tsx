@@ -1,5 +1,6 @@
 import { Footer } from "./footer";
 import { Hero } from "./hero";
+//import { Animacja } from "./animacja";
 // import { SocialMedia } from "./socialmedia";
 //strona glowna
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
     {id: 3, title: "nie wiem nr 3"}
   ]
   return (
-    // <main> to standardowy kontener dla głównej treści
+    // <main> to standardowy kontener dla głównej treśc
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
       <Hero/>
       {/** projekty */}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes slide {
+  0%{ 
+    transform: translateX(0%) rotate(60deg); 
+  }
+  100%{ 
+    transform: translateX(10%) rotate(60deg); 
+  }
+}
+
+.animate-slide-1 {
+  animation: slide 3s ease-in-out infinite alternate !important;
+}
+
+.animate-slide-2 {
+  animation: slide 4s ease-in-out infinite alternate-reverse !important;
+}
