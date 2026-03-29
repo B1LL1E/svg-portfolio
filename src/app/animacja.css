@@ -9,7 +9,7 @@
   100%{ 
     transform: translateX(10%) rotate(60deg); 
   }
-}
+} 
 
 .animate-slide-1 {
   animation: slide 3s ease-in-out infinite alternate !important;
